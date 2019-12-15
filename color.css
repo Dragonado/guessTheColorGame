@@ -1,0 +1,84 @@
+body{
+	background-color: #232323;
+	margin:0;
+	font-family: "arial";
+	text-transform: uppercase;
+}
+#message{
+	display: inline-block;
+	width: 20%;
+}
+button{
+	text-transform: uppercase;
+	border: none;
+
+	/*same as the navbar*/
+	background-color: white;
+	/*same as the heading*/
+	color: cyan; 
+	height: 90%;
+	font-weight: bold;
+	font-size: inherit;
+	transition: all 0.3s;
+}
+
+button:hover{
+	background-color: cyan;
+	color: white;
+}
+
+#heading{
+	margin: 0px;
+	text-align: center;
+	background-color: cyan;
+	color: white;
+}
+h1{
+	margin: 0;
+	padding: 20px 0  ;
+}
+
+#nav{
+	/*margin: 0;*/
+	text-align: center;
+	color: white;
+	height: 30px;
+	background-color: white;
+	color: cyan;
+	font-weight: bold;
+}
+
+#nav span{
+	/*text-align: center;
+	font-size: 30px;
+	/*margin-left: 50px;*/
+}
+
+#container{
+	margin-top: 20px;
+	height: 700px;
+	width: 50%;
+	margin-left: 25%;
+}
+
+#rgbValue{
+	font-size: 2em;
+}
+.square{
+	
+	float: left;
+	
+	height: 30%;
+	width: 30%;
+	background-color: purple;
+	margin: 1.66%;
+	border-radius: 15%;
+	transition: background 0.5s
+}
+
+.selected{
+	background-color: cyan;
+	color: white;
+}
+
+
